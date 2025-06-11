@@ -1,0 +1,17 @@
+/home/pfca/NetBeansProjects/XDoG/src/main/java/FileManager/Grayscale.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/FileManager/PngConverter.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/FileManager/PngReader.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/FileManager/PngSaver.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/Util/Main.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/Windows/DropDownWindow.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/Windows/ImageViewer.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/Windows/SimpleSwingWorker.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/DirectionalBlur.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Gaussian.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/LIC.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Operations.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Sobel.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Util/Helper.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Util/ImageConverter.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Util/PixelConverter.java
+/home/pfca/NetBeansProjects/XDoG/src/main/java/XDoG/Util/PostProcessingOptions.java
