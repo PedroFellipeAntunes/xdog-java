@@ -65,10 +65,6 @@ This project is a Java application that implements the **eXtended Difference of 
   - **Quantization**: discrete tone levels  
 - **Batch Processing & Saving**  
   - Flags to skip display and auto‑save  
-  - Filenames encode parameters, for example `XDoG[Threshold,true]_input.png`  
-- **Lightweight Viewer**  
-  - Simple Swing window to preview results  
-- **Pure Java, No External Dependencies**  
 
 ---
 
