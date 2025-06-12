@@ -2,7 +2,7 @@
 
 This project is a Java application that implements the **eXtended Difference of Gaussians (XDoG)** and Line Integral Convolution (LIC) pipeline to produce stylized renderings of images. It converts input images into OKLab color space, computes structure tensors, applies directional blurs along edges, and then performs two LIC passes (thresholded and anti‑aliased). Results can be viewed in a simple Swing window and saved automatically.
 
-**Based on the work of**: Holger Winnemöollera, Jan Eric Kyprianidisb, Sven C. Olsen
+**Based on the work of**: Holger Winnemöoller, Jan Eric Kyprianidis, Sven C. Olsen
 
 <div align="center">
   <table>
