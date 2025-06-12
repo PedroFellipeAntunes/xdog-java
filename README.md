@@ -1,6 +1,8 @@
 # XDoG (eXtended Difference of Gaussians)
 
-This project is a Java application that implements the **eXtended Difference of Gaussians (XDoG)** and Line Integral Convolution (LIC) pipeline to produce stylized renderings of images. It converts input images into OKLab color space, computes structure tensors, applies directional blurs along edges, and then performs two LIC passes (thresholded and anti‑aliased). Results can be viewed in a simple Swing window and saved automatically.
+This project is a Java application that implements the full **eXtended Difference of Gaussians (XDoG)** pipeline to produce stylized renderings of images. It converts input images into OKLab color space, computes structure tensors, applies directional blurs along edges, and then performs two LIC passes (thresholded and anti‑aliased). Results can be viewed in a simple Swing window and saved automatically.
+
+This project can be a bit slow to render large images, since it runs entirely on the CPU and does not utilize parallel computing. While running the jar on the CMD it will display the time and memory each step takes.
 
 **Based on the work of**: Holger Winnemöoller, Jan Eric Kyprianidis, Sven C. Olsen
 
@@ -115,7 +117,7 @@ This project is a Java application that implements the **eXtended Difference of 
 
 5. **Reassembly & Saving**  
    - Convert the final float array back to an ARGB image  
-   - Display and/or save with a descriptive filename  
+   - Display and/or save with a descriptive filename
 
 ---
 
