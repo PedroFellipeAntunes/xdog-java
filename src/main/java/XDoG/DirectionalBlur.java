@@ -132,8 +132,16 @@ public class DirectionalBlur {
                 float vx = -dy, vy = dx;
 
                 // Apply directional blur at both scales
-                float blur1 = directionalBlurAt(image, x, y, vx, vy, kernel1, r1);
-                float blur2 = directionalBlurAt(image, x, y, vx, vy, kernel2, r2);
+                float blur1;
+                float blur2;
+                
+                if (sigmaE <= 0) {
+                    blur1 = image[y][x][1];
+                    blur2 = image[y][x][1];
+                } else {
+                    blur1 = directionalBlurAt(image, x, y, vx, vy, kernel1, r1);
+                    blur2 = directionalBlurAt(image, x, y, vx, vy, kernel2, r2);
+                }
 
                 // Scale values
                 float b1 = blur1 * (1.0f + tau);

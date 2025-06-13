@@ -29,7 +29,13 @@ public class LIC {
             for (int x = 0; x < width; x++) {
                 out[y][x][0] = image[y][x][0];
                 
-                float val = computeLicAtPixel(image, vectorMap, x, y, kernel, r);
+                float val;
+                
+                if (sigma <= 0) {
+                    val = image[y][x][1];
+                } else {
+                    val = computeLicAtPixel(image, vectorMap, x, y, kernel, r);
+                }
                 
                 out[y][x][1] = opts.apply(val);
             }
